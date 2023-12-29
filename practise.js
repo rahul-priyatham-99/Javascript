@@ -65,6 +65,7 @@ const ternary_search = (int_array, k) => {
     }
     return -1
 }
-let key = 3
+let key = 30
+new_arr = [10, 20, 30, 40]
 output = ternary_search(new_arr, key)
 console.log("ternary_search_output:",output)
