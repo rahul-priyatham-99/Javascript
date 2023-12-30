@@ -51,8 +51,8 @@ executes a provided function for each value of the array (from left to right) an
 the return value of the function is stored in an accumulator. */
 let sample = [10, 212, 22, 29]
 const sum = sample.reduce((a, b) => {
-    return a + b;
-})
+    return a * b;
+}, 2)
 console.log("sum:", sum)
 
 let arr = [1, 33, 4, 4]

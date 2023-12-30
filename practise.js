@@ -69,3 +69,23 @@ let key = 30
 new_arr = [10, 20, 30, 40]
 output = ternary_search(new_arr, key)
 console.log("ternary_search_output:",output)
+
+const example = ((...args)=> {
+    console.log(args)
+    return args
+})
+
+let int_array_example = [1, 2, 3, 4, 5]
+out_example = example(...int_array_example)
+console.log(out_example)
+
+const person = {
+    'name': 'c',
+    'age': 20,
+    'lname': 'last'
+}
+const {name, age, lname=10} = person
+console.log(lname)
+
+const [a, b] = [10, 20]
+console.log(a)
