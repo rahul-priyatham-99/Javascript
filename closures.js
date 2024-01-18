@@ -21,8 +21,8 @@ function closures(){
         }, i*1000)
     }
 }
-//closures();
 
+//closures();
 // fix : using let can fix this because every time loop runs fresh i value will be created in the memory.
 function closures2(){
     for (let i =1; i<=5; i++){
@@ -32,9 +32,6 @@ function closures2(){
     }
 }
 closures2();
-
-
-
 
 
 function c(){
@@ -47,5 +44,4 @@ function c(){
         d(i)
     }
 }
-
 // c();
